@@ -1,0 +1,5 @@
+{
+ "databaseURL": "https://monitoring-neodata.firebaseio.com/",
+  "storageBucket": "gs://monitoring-neodata.appspot.com",
+  "projectId": "monitoring-neodata"
+}
