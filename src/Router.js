@@ -6,6 +6,7 @@ import Beginning from './components/Beginning';
 import TaggedResourcesList from './components/TaggedResourcesList';
 import EditResources from './components/EditResources';
 import NotificationList from './components/NotificationList';
+import Dashboard from './components/Dashboard';
 
 const RouterComponent = () => {
   return (
@@ -21,6 +22,12 @@ const RouterComponent = () => {
               title="Neodata Monitoring"
               initial
 
+            />
+
+            <Scene
+              key="Dashboard"
+              component={Dashboard}
+              title="Overview"
             />
 
             <Scene
